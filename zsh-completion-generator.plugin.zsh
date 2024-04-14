@@ -31,7 +31,6 @@ fi
 local -a programs
 # -a denotes there's array in the Zstyle
 zstyle -a :plugin:zsh-completion-generator programs programs
-(( ${#programs} )) || programs=( "ggrep" "groff -h" "nl" )
 
 # anonymous function, to have private variable scope
 () {

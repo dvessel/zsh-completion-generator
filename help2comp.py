@@ -17,9 +17,6 @@ STRIP_CHARS = " \t\n,="
 
 COMPLETE_FUNCTION_TEMPLATE = """
 #compdef $program_name
-
-# zsh completions for '$program_name'
-# automatically generated with $url
 local arguments
 
 arguments=(
